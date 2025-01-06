@@ -5,6 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import animeImg from "@/public/anime.png";
 import visitPanautiImg from "@/public/visitpanauti.png";
 import loomImg from "@/public/loom.png";
+import expenzo from "@/public/expenzo.png"
+import logoBuddy from "@/public/logoBuddy.png"
 
 export const links = [
   {
@@ -62,6 +64,28 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Expenzo",
+    description:
+      "A modern expense tracker application built with Expo and React Native, designed to help users efficiently manage and track their expenses.",
+    tags: ["Expo", "React Native", "SQLite", "TypeScript"],
+    imageUrl: expenzo,
+  },
+  {
+    title: "LogoBuddy",
+    description:
+      "An AI-powered logo builder that leverages Hugging Face and Replicate for generating custom logos. Includes Firebase for storage and Clerk for authentication.",
+    tags: ["AI", "Hugging Face", "Replicate", "Firebase", "Clerk"],
+    imageUrl: logoBuddy,
+  },
+
+  {
+    title: "Loom: Online Meeting Application",
+    description:
+      "Developed a full-stack video application enabling users to record, stream, and share video content seamlessly.",
+    tags: ["React", "Next.js", "Stream", "Tailwind", "Clerk"],
+    imageUrl: loomImg,
+  },
+  {
     title: "AnimeRelam",
     description:
       "A web app for the showing the list of the anime and their details.",
@@ -75,13 +99,7 @@ export const projectsData = [
     tags: ["React Native", "Expo", "Express", "Tailwind", "MongoDb"],
     imageUrl: visitPanautiImg,
   },
-  {
-    title: "Loom: Online Meeting Application",
-    description:
-      "Developed a full-stack video application enabling users to record, stream, and share video content seamlessly.",
-    tags: ["React", "Next.js", "Stream", "Tailwind", "Clerk"],
-    imageUrl: loomImg,
-  },
+
 ] as const;
 
 export const skillsData = [
